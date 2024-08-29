@@ -31,8 +31,8 @@ const articlesForPage: CollectionEntry<'blog'>[] = allBlogArticles.slice((curren
   
           <!-- Pagination -->
            <Pagination currentPage={currentPage} 
-           totalPages={totalPages} 
-           disablePrevious={currentPage === 1} 
-           disableNext={currentPage === totalPages} />
+            totalPages={totalPages} 
+            disablePrevious={currentPage === 1} 
+            disableNext={currentPage === totalPages} />
         </section>
 </MainLayout>
